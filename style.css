@@ -1,0 +1,77 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, Helvetica-Neue, Arial;
+  text-align: center;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #f1f3f3;
+  height: 450px;
+  width: 700px;
+}
+
+.snapshot {
+  height: 418px;
+  width: 313px;
+  display: inline-block;
+  margin: 15px;
+  border: 2px solid #f1f3f3;
+  border-radius: 10px;
+}
+
+.profile_pic {
+  width: 317px;
+  max-height: 60%;
+  border: 0px;
+  border-radius: 10px 10px 0px 0px;
+  margin-left: -2px;
+  margin-top: -2px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.name {
+  font-size: 32px;
+  padding-top: 10px;
+  }
+
+.title {
+  padding: 10px;
+}
+.h-line {
+  border: 1px solid #f1f3f3;
+  margin-top: 5px;
+}
+
+.funds {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  position: relative;
+  top: 15px;
+  right: 45px;
+}
+
+.donors {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  position: relative;
+  top: 15px;
+  left: 45px;
+}
+
+.number {
+  font-weight: bold;
+}
+
+.type {
+}
