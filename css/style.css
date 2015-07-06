@@ -1,6 +1,9 @@
 html,
 body {
   height: 100%;
+  background-image: url('../images/visual_guide.png');
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 body {
